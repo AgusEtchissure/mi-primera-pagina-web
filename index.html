@@ -8,7 +8,7 @@
         /* Estilos CSS */
         /* Estilos generales */
         body {
-            font-family: Arial, sans-serif;
+            font-family: Times, serif, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f8f8f8; /* Fondo gris claro */
@@ -37,12 +37,12 @@
 
         /* Estilos para el contenido principal */
         main {
-            padding: 20px;
+            padding: 30px;
         }
 
         /* Estilos para las secciones */
         section {
-            margin-bottom: 30px;
+            margin-bottom: 60px;
         }
 
         h2 {
@@ -51,6 +51,18 @@
 
         p {
             color: #000000; /* Texto gris oscuro */
+        }
+
+        ul {
+            list-style-type: none; /* Quita los puntos de la lista */
+            padding: 0;
+            margin: 0;
+            text-align: center; /* Alinea el texto al centro */
+        }
+
+        li {
+            display: inline; /* Hace que los elementos de la lista se muestren en línea */
+            margin: 0 10px; /* Añade un margen entre los elementos de la lista */
         }
 
         /* Estilos para el pie de página */
@@ -66,6 +78,12 @@
 
         /* Estilos para la imagen */
         .logo {
+            width: 50px; /* Cambia el tamaño de la imagen según sea necesario */
+            height: auto; /* Mantener la proporción */
+            border-radius: 10px; /* Agrega bordes redondeados */
+        }
+
+        .perfil {
             width: 200px; /* Cambia el tamaño de la imagen según sea necesario */
             height: auto; /* Mantener la proporción */
             border-radius: 10px; /* Agrega bordes redondeados */
@@ -76,6 +94,10 @@
     <header>
         <h1>Agustina Etchissure</h1>
         <p>Tecnóloga Agroambiental</p>
+        <ul>
+            <li><a href="https://www.instagram.com/agusetchi12/"><img src="https://lh3.googleusercontent.com/proxy/mNj_eAW2ekjHdSAxbNRq4OTjgxofKIpXnAXkzuwdghx2WHWOdLo0K4bvODaHhAQByzFHGi1nyYMo2UVWj1m8ESQDT_g_aj_FHQEJ6nhZnO_z5Gfrte7T8fr4BkXeLl4MFQkKwZoIO1UPew" alt="Instagram"class="logo"></a></li>
+            <li><a href="https://www.facebook.com/agustina.etchissure/"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg" alt="Facebook"class="logo"></a></li>
+        </ul>
     </header>
     <nav>
         <a href="#about">Sobre mí</a>
@@ -86,7 +108,7 @@
         <section id="about">
             <h2>Sobre mí</h2>
             <img src="https://scontent.fmvd3-1.fna.fbcdn.net/v/t39.30808-6/316810807_5538637702919105_2297256882379236338_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=YYDHM_gsEZwAX_Dti6j&_nc_ht=scontent.fmvd3-1.fna&oh=00_AfAg6SQrCQLFoPBw0sC-Q2WhEBiTzLE3G8eSq09SslN-pA&oe=66018831" 
-                 alt="Logo" class="logo">
+                 alt="Logo" class="perfil">
             <p>¡Hola! Soy Agustina Etchissure, una apasionada programadora web con experiencia en startups uruguayas y educación en línea. Mi enfoque es crear soluciones digitales innovadoras utilizando HTML, CSS y JavaScript.</p>
         </section>
         <section id="portfolio">
@@ -97,11 +119,9 @@
         <section id="contact">
             <h2>Contacto</h2>
             <p>¡Me encantaría saber de ti! Puedes contactarme a través de los siguientes medios:</p>
-            <ul>
-                <li>Email: aetchissure@hotmail.com</li>
-                <li>Teléfono: +598 92 366 004</li>
-                <li>Redes sociales: [https://www.instagram.com/agusetchi12/]</li>
-            </ul>
+            <p>Email: aetchissure@hotmail.com</p>
+            <p>Teléfono: +598 92 366 004</p>
+            
         </section>
     </main>
     <footer>
